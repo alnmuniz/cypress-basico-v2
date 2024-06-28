@@ -22,7 +22,7 @@ describe('Central de Atendimento ao Cliente TAT', function() {
 
         cy.get('#firstName').type('andre')
         cy.get('#lastName').type('muniz')
-        cy.get('#email').type('email@trt5.jus.br')
+        cy.get('#email').type('email@trt5,jus.br')
         cy.get('#open-text-area')
             .type('texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste texto de teste',
               {delay : 0}  
